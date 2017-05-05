@@ -46,7 +46,7 @@ class DiscoursePlugin extends BasePlugin
      */
     public function getDocumentationUrl ()
     {
-        return 'https://github.com/sjelfull/discourse/blob/master/README.md';
+        return 'https://superbig.co/plugins/discourse-sso';
     }
 
     /**
@@ -54,7 +54,7 @@ class DiscoursePlugin extends BasePlugin
      */
     public function getReleaseFeedUrl ()
     {
-        return 'https://raw.githubusercontent.com/sjelfull/discourse/master/releases.json';
+        return 'https://superbig.co/plugins/discourse-sso/feed';
     }
 
     /**
