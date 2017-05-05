@@ -1,0 +1,15 @@
+{
+	"name": "sjelfull/discourse",
+	"description": "Single Sign-On for Discourse",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Superbig",
+			"homepage": "https://superbig.co"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0",
+		"cviebrock/discourse-php": "^0.9.2"
+	}
+}

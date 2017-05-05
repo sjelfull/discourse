@@ -1,0 +1,44 @@
+{#
+/**
+ * Discourse plugin for Craft CMS
+ *
+ * Discourse Settings.twig
+ *
+ * @author    Superbig
+ * @copyright Copyright (c) 2017 Superbig
+ * @link      https://superbig.co
+ * @package   Discourse
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{{ forms.textField({
+    readonly: true,
+    label: 'Login URL',
+    instructions: 'Paste this into Admin -> Settings -> Login -> sso url',
+    id: 'loginUrl',
+    name: 'loginUrl',
+    value: loginUrl })
+}}
+
+<hr>
+
+{{ forms.textField({
+    label: 'Discourse SSO endpoint',
+    instructions: 'Example: http://your.discourse.domain/session/sso_login',
+    id: 'ssoEndpoint',
+    name: 'ssoEndpoint',
+    required: true,
+    value: settings['ssoEndpoint']})
+}}
+
+{{ forms.textField({
+    label: 'Discourse SSO secret',
+    instructions: 'Get this from Admin -> Settings -> Login -> sso secret.',
+    id: 'ssoSecret',
+    name: 'ssoSecret',
+    required: true,
+    value: settings['ssoSecret']})
+}}
