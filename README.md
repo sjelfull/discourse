@@ -16,10 +16,11 @@ Discourse works on Craft 2.4.x and Craft 2.5.x.
 
 ## Discourse Overview
 
--Insert text here-
+[Read more about SSO at Discourse.org](https://meta.discourse.org/t/official-single-sign-on-for-discourse/13045)
 
 ## Configuring Discourse
 
--Insert text here-
+1. Enable SSO in your Discourse installation by [following the guide](https://meta.discourse.org/t/official-single-sign-on-for-discourse/13045).
+2. Fill out the plugin settings and copy over your login URL to Discourse.
 
 Brought to you by [Superbig](https://superbig.co)
